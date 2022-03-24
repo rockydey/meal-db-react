@@ -1,9 +1,21 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faShoppingCart } from '@fortawesome/free-solid-svg-icons'
 import React from 'react';
+import './Food.css'
 
-const Food = () => {
+const Food = ({ food }) => {
+    const { strMeal, strMealThumb, strCategory } = food;
     return (
-        <div>
-            <h1>Welcome</h1>
+        <div className='food'>
+            <img src={strMealThumb} alt="" />
+            <div className='food-info'>
+                <h3>{strMeal}</h3>
+                <p>{strCategory}</p>
+            </div>
+            <button className='btn-text'>
+                <p>Add To Cart</p>
+                <FontAwesomeIcon icon={faShoppingCart}></FontAwesomeIcon>
+            </button>
         </div>
     );
 };

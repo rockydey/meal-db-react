@@ -1,0 +1,54 @@
+.food{
+    width: 300px;
+    height: 500px;
+    border: 1px solid rgba(128, 128, 128, 0.404);
+    border-radius: 8px;
+    position: relative;
+}
+.food img{
+    width: 280px;
+    border-radius: 8px;
+    margin: 10px;
+}
+.food-info h3{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 25px;
+    margin: 7px 10px;
+}
+.food-info p{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    margin: 7px 10px;
+}
+.btn-text{
+    width: 100%;
+    background: #FFE0B3;
+    border: none;
+    box-sizing: border-box;
+    border-radius: 0px 0px 8px 8px;
+    padding: 18px;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-text p{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    cursor: pointer;
+    margin-right: 8px;
+}
+.btn-text:hover{
+    background-color: orange;
+    color: white;
+}
