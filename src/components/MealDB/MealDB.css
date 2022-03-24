@@ -5,6 +5,9 @@
 .food-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin: 100px 60px;
+    margin: 100px 70px;
     gap: 40px;
+}
+.details-container{
+    background: rgba(255, 153, 0, 0.3);
 }
